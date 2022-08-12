@@ -1,6 +1,6 @@
-import { EmbedBuilder, Client, ContextMenuCommandInteraction } from "discord.js"
+import { EmbedBuilder, Client, } from "discord.js"
 /**
- * @param { ContextMenuCommandInteraction } interaction 
+ *  
  * @param { Client } client 
  */
 export async function execPingCommand(interaction: any, client: Client) {
