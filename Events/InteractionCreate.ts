@@ -2,7 +2,7 @@ import Eris, { CommandInteraction } from "eris";
 import { bot } from "../Bot";
 import { PulsedCommand } from "../index";
 import { PulsedEvent } from "../index";
-import { CommandType } from "../typings/Command";
+import { CommandType } from "../Typings/Command";
 
 export default new PulsedEvent("interactionCreate", async (interaction) => {
 	// Chat Input Commands

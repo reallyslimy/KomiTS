@@ -1,4 +1,3 @@
-// Test
 import Eris, { Client, type ApplicationCommand } from "eris";
 import 'dotenv/config'
 import { PulsedClient } from "./index";
